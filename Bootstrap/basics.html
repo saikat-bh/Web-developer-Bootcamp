@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Basics</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+
+		<h1>Bootstrap Basics</h1>
+		<a href="http://www.getbootstrap.com" class="btn btn-info btn-lg">Bootstrap Docs</a>
+		<button class="btn btn-success" active>Click Me!</button>
+		<button class="btn btn-success" disabled="disabled">Click Me!</button>
+		<hr>
+		<div class="jumbotron">
+			<h1>This Is a Jumbotron</h1>
+			<p>Saikat Bhattacharjee Bootstarp practice sessions</p>
+			<button class="btn btn-info btn-lg">Hi There</button>
+		</div>
+
+		<form>
+			<div class="form-group">
+				<label for="exampleInputEmail">Email Address:</label>
+				<input type="Email" name="Email" id="exampleInputEmail" class="form-control" placeholder="Email">
+			</div>
+			<div class="form-group">
+				<label for="exampleInputPassword">Password:</label>
+				<input type="Password" name="Password" id="exampleInputPassword" class="form-control" placeholder="Password">
+			</div>
+			<div class="form-group">
+				<label for="exampleInputFile">File Input:</label>
+				<input type="File" name="File" id="exampleInputFile">
+				<p class="help-block">Example block-level help text here.</p>
+			</div>
+			<div class="checkbox">
+				<label>
+					<input type="checkbox" name="checkbox">Check me out
+				</label>
+			</div>
+			<button type="Submit" class="btn btn-default">Submit</button>
+		</form>
+
+		<hr>
+
+		<form class="form-inline">
+		  <div class="form-group">
+		    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+		    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+		  </div>
+		  <div class="form-group">
+		    <label class="sr-only" for="exampleInputPassword3">Password</label>
+		    <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+		  </div>
+		  <div class="checkbox">
+		    <label>
+		      <input type="checkbox"> Remember me
+		    </label>
+		  </div>
+		  <button type="submit" class="btn btn-default">Sign in</button>
+		</form>
+
+	</div>
+</body>
+</html>
